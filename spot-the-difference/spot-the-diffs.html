@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="spot.png" alt="spot the difference logo"/></div>
+            <div class="btnContainer">
+                <button id="startGame" class="btn btn-2 btn-2g">Start Game</button>
+            </div>
+        </div>
+        
+        <div id="statsBar">
+            <div id="lives">
+                <span class="lives-icon" data-balloon="Lives left" data-balloon-pos="up"><i class="icon-heart-1"></i></span>
+                <span id="lives-count">&nbsp;</span>
+            </div>
+            <div id="help">
+                <span class="next-icon" data-balloon="Hate this image? Detonate it!" data-balloon-pos="up"><i class="icon-bomb"></i></span>
+                <span class="target-icon" data-balloon="Need some help on focusing?" data-balloon-pos="up"><i class="icon-target"></i></span>
+                <span class="extra-time-icon" data-balloon="Get some extra time!" data-balloon-pos="up"><i class="icon-hourglass"></i></span>
+            </div>
+            <div id="time-left">
+                <span class="time-icon" data-balloon="Time left" data-balloon-pos="up"></span>
+                <span id="timer">00:00</span>
+            </div>
+            <div id="score">
+                <span class="score-icon" data-balloon="Score" data-balloon-pos="up"><i class="icon-star"></i></span>
+                <span id="score-count">0</span>
+            </div>
+            <div id="high-score">
+                <span class="highscore-icon" data-balloon="High-score" data-balloon-pos="up"><i class="icon-trophy"></i></span>
+                <span id="high-score-count">0</span>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="container diffContainer">
+        <div id="spot1" class="diffDiv">
+            <img src="https://unsplash.it/600/400" alt="dif1" />
+            <span class="mirror hide"><span></span><span></span><span></span><span></span></span>
+        </div>
+        <div id="spot2" class="diffDiv">
+            <img src="https://unsplash.it/600/400" alt="dif2" />
+            <span class="mirror hide"><span></span><span></span><span></span><span></span></span>
+        </div>
+    </div>
+    <div class="container">
+        <span class="coordinates"></span>
+        <span class="coordinates2"></span>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <div class="overlay hidden">
+        <div class="round-board">
+            <p>Time left: <span class="timespan">&nbsp;</span></p>
+            <p>Lives left: <span class="lifespan">&nbsp;</span></p>
+            <p>Score total: <span class="scorespan">&nbsp;</span></p>
+            <button class="next-round fade">Go to next round</button>
+        </div>
+    </div>
+  </body>
+</html>    
