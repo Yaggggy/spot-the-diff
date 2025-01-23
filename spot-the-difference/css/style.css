@@ -68,22 +68,6 @@ header .logo img {
   transition: opacity 400ms;
   z-index: 999;
 }
-/* .diff.no1 { */
-    /* left: 332px; */
-    /* top: 391px; */
-    /* -webkit-clip-path: polygon(13% 3%, 93% 36%, 92% 89%, 11% 30%); */
-    /* clip-path: polygon(13% 3%, 93% 36%, 92% 89%, 11% 30%); */
-    /* width: 65px; */
-    /* height: 36px; */
-/* } */
-/* .diff.no2 { */
-    /* left: 473px; */
-    /* top: 174px; */
-/* } */
-/* .diff.no3 { */
-    /* left: 49px; */
-    /* top: 371px; */
-/* } */
 .mirror {
     width: 30px;
     height: 30px;
